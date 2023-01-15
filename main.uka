@@ -1,0 +1,17 @@
+//pluginのエラーは通知が起きない。
+
+
+version {
+	"origin/1.0"
+}
+OnPluginLoad.Self {
+}
+
+OnPluginUnload.Self {
+}
+
+
+OnMenuExec {
+}
+
+

@@ -1,0 +1,15 @@
+Charset,UTF-8
+readme.charset,UTF-8
+readme.readme.md
+type,plugin
+name,UpdateTestPlugin
+craftman,ambergon
+filename,yaya.dll
+
+id,8900fa50-9484-11ed-87cd-0800200c9a66
+
+secondchangeinterval,0
+otherghosttalk,0
+
+//更新url
+//homeurl,
