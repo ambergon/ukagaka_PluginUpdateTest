@@ -11,7 +11,20 @@ OnPluginUnload.Self {
 }
 
 
-OnMenuExec {
+
+
+
+
+//起動時にupdateをチェックできるようにする必要がある。
+//自らURLをチェックさせねばならない。
+//plugin側でstatusを確認するとどうなるのか
+//使用するゴーストと取得情報の違いはどうだろうか
+OnSecondChanges {
 }
 
+
+
+OnMenuExec {
+    "menuをひょうじするぜ。"
+}
 
