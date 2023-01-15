@@ -5,6 +5,9 @@ version {
 	"origin/1.0"
 }
 OnPluginLoad.Self {
+    //update2.dauを生成するコードはあるが、なんか思いつかんか。
+    //if dic
+    //"\![execute,createupdatedata]"
     //起動時にupdate
     "\![updatebymyself]"
 }
@@ -26,7 +29,10 @@ OnSecondChanges {
 
 
 
+//書き換えるだけなら問題ないんだけど
+//dauを作るのが問題なんだ。
+//彼らがgit autoactionをいじる理由である。
 OnMenuExec {
-    "version 1.0.0"
+    "version 2.0.0"
 }
 
