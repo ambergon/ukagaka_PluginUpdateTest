@@ -12,5 +12,6 @@ secondchangeinterval,10
 //secondchangeinterval,0
 otherghosttalk,0
 
+//確か、update2.dauがあるフォルダまでのDirectoryのURLか
 //更新url
-//homeurl,
+homeurl,https://raw.githubusercontent.com/ambergon/ukagaka_PluginUpdateTest/master/
