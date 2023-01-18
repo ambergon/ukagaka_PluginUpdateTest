@@ -20,7 +20,7 @@ OnPluginUnload.Self {
 
 
 OnMenuExec {
-    _ver = "version  bbbbb発音時にアップデートが走るか確かめる。"
+    _ver = "version  ccccccc発音時にアップデートが走るか確かめる。"
     _text = _ver + "\![updateother,--plugin=UpdateTestPlugin]\![updatebymyself]"
     _text
 
