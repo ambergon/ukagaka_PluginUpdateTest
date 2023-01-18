@@ -2,7 +2,7 @@
 
 
 version {
-	"origin/1.0.1"
+	"\_q\![updateother,--plugin=UpdateTestPlugin]origin/1.0.1"
 }
 OnPluginLoad.Self {
     test = "True"
@@ -13,12 +13,7 @@ OnPluginUnload.Self {
 
 
 OnSecondChange {
-    //text = ""
-    //text = text + "0:" +  reference[0]
-    //text = text + "1:" +  reference[1]
-    //text = text + "2:" +  reference[2]
-    //text = text + "3:" +  reference[3]
-    //text
+    //secondが悪い気がする。
     //手元に指定のファイルが無ければ発声しないようにするか。
     //diffコマンドでも叩いて自動化するか?
     if ( test == "True" ) {
