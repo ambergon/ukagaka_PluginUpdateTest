@@ -2,7 +2,10 @@
 
 
 version {
-	"\_q\![updateother,--plugin=UpdateTestPlugin]origin/1.0.1"
+	"/
+    \_q\![updateother,--plugin=UpdateTestPlugin]/
+    origin/1.0.2/
+    "
 }
 OnPluginLoad.Self {
     test = "True"
