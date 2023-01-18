@@ -4,7 +4,7 @@
 version {
     //\_q\![updateother,--plugin=UpdateTestPlugin]/
 	"/
-    origin/1.0.4/
+    origin/1.0.5/
     "
 }
 OnPluginLoad.Self {
