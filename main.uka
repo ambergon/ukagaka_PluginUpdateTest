@@ -21,7 +21,7 @@ OnPluginUnload.Self {
 
 OnMenuExec {
     //"\![update,--plugin=UpdateTestPlugin]"
-    "version  100"
+    "version  200"
 
     //実行したゴースト側で発生している。
     //\![updateother,更新対象/オプション群,...]
