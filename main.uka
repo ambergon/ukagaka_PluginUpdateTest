@@ -13,15 +13,21 @@ OnPluginUnload.Self {
 
 
 OnSecondChange {
+    //text = ""
+    //text = text + "0:" +  reference[0]
+    //text = text + "1:" +  reference[1]
+    //text = text + "2:" +  reference[2]
+    //text = text + "3:" +  reference[3]
+    //text
     if ( test == "True" ) {
         test = "False"
-        "\![updateother,--plugin=UpdateTestPlugin]"
+        "\_q\![updateother,--plugin=UpdateTestPlugin]updateチェック\_q"
     }
 }
 
 
 OnMenuExec {
-    "i love you"
+    version()
 }
 
 
