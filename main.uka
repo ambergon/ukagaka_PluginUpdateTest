@@ -5,11 +5,10 @@ version {
 	"origin/1.0"
 }
 OnPluginLoad.Self {
-    //update2.dauを生成するコードはあるが、なんか思いつかんか。
+    //main側で関数名を引っ張るか。
     //if dic
-    //"\![execute,createupdatedata]"
-    //起動時にupdate
-    "\![updatebymyself]"
+    //ISFUNCがあるしな。
+    "\![update,--plugin=UpdateTestPlugin]"
 }
 
 OnPluginUnload.Self {
@@ -20,19 +19,26 @@ OnPluginUnload.Self {
 
 
 
-//起動時にupdateをチェックできるようにする必要がある。
-//自らURLをチェックさせねばならない。
-//plugin側でstatusを確認するとどうなるのか
-//使用するゴーストと取得情報の違いはどうだろうか
-OnSecondChanges {
-}
-
-
-
-//書き換えるだけなら問題ないんだけど
-//dauを作るのが問題なんだ。
-//彼らがgit autoactionをいじる理由である。
 OnMenuExec {
-    "version 2.0.0"
+    //"\![update,--plugin=UpdateTestPlugin]"
+    "version  100"
+
+    //実行したゴースト側で発生している。
+    //\![updateother,更新対象/オプション群,...]
+    //"\![execute,createupdatedata]"
+    //"\![execute,createnar]"
+    //"\![execute,createupdatedata]\![execute,createnar]"
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
