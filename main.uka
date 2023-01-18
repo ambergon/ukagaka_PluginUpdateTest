@@ -20,7 +20,7 @@ OnPluginUnload.Self {
 
 
 OnMenuExec {
-    _ver = "version  202"
+    _ver = "version  302"
     _text = _ver + "\![update,--plugin=UpdateTestPlugin]"
     _text
 
