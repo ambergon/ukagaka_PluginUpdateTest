@@ -2,9 +2,9 @@
 
 
 version {
+    //\_q\![updateother,--plugin=UpdateTestPlugin]/
 	"/
-    \_q\![updateother,--plugin=UpdateTestPlugin]/
-    origin/1.0.3/
+    origin/1.0.4/
     "
 }
 OnPluginLoad.Self {
@@ -21,7 +21,8 @@ OnSecondChange {
     //diffコマンドでも叩いて自動化するか?
     if ( test == "True" ) {
         test = "False"
-        "\_q\![updateother,--plugin=UpdateTestPlugin]updateチェック\_q"
+        "\_q\![updateother,--plugin=UpdateTestPlugin]\_q"
+        //"\_q\![updateother,--plugin=UpdateTestPlugin]updateチェック\_q"
     }
 }
 
