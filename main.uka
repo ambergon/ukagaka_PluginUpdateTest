@@ -20,8 +20,8 @@ OnPluginUnload.Self {
 
 
 OnMenuExec {
-    _ver = "version  ccccccc発音時にアップデートが走るか確かめる。"
-    _text = _ver + "\![updateother,--plugin=UpdateTestPlugin]\![updatebymyself]"
+    _ver = "問題ないようだ。reload方法を模索すること。"
+    _text = _ver + "\![updateother,--plugin=UpdateTestPlugin]"
     _text
 
     //実行したゴースト側で発生している。
