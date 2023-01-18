@@ -17,9 +17,10 @@ OnPluginUnload.Self {
 
 
 OnMenuExec {
-    _ver = "1234xxx問題ないようだ。reload方法を模索すること。"
-    _text = _ver + "\![updateother,--plugin=UpdateTestPlugin]\x"
-    _text
+    "1234"
+    //_ver = "1234xxx問題ないようだ。reload方法を模索すること。"
+    //_text = _ver + "\![updateother,--plugin=UpdateTestPlugin]\x"
+    //_text
 
     //実行したゴースト側で発生している。
     //\![updateother,更新対象/オプション群,...]
