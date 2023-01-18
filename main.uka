@@ -1,11 +1,9 @@
 //pluginのエラーは通知が起きない。
 
 
+//通信チェックを手動で。
 version {
-    //\_q\![updateother,--plugin=UpdateTestPlugin]/
-	"/
-    origin/1.0.5/
-    "
+	"origin/1.0.6"
 }
 OnPluginLoad.Self {
     test = "True"
@@ -16,9 +14,6 @@ OnPluginUnload.Self {
 
 
 OnSecondChange {
-    //secondが悪い気がする。
-    //手元に指定のファイルが無ければ発声しないようにするか。
-    //diffコマンドでも叩いて自動化するか?
     if ( test == "True" ) {
         test = "False"
         "\_q\![updateother,--plugin=UpdateTestPlugin]\_q"
@@ -30,8 +25,6 @@ OnSecondChange {
 OnMenuExec {
     version()
 }
-
-
 
 
 
