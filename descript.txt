@@ -9,7 +9,7 @@ filename,yaya.dll
 id,8900fa50-9484-11ed-87cd-0800200c9a66
 
 //secondchangeinterval,10
-secondchangeinterval,0 
+secondchangeinterval,1
 otherghosttalk,0
 
 //確か、update2.dauがあるフォルダまでのDirectoryのURLか

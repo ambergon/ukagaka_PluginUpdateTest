@@ -5,19 +5,25 @@ version {
 	"origin/1.0"
 }
 OnPluginLoad.Self {
-    "\![updateother,--plugin=UpdateTestPlugin]"
+    test = "True"
 }
 
 OnPluginUnload.Self {
 }
 
 
+OnSecondChange {
+    if ( test == "True" ) {
+        test = "False"
+        "\![updateother,--plugin=UpdateTestPlugin]"
+    }
+}
 
 
 
 
 OnMenuExec {
-    "挙動が気に食わん。"
+    "X挙動が気に食わん。"
 }
 
 
