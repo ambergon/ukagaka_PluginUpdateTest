@@ -20,10 +20,8 @@ OnSecondChange {
 }
 
 
-
-
 OnMenuExec {
-    "X挙動が気に食わん。"
+    "時間調整X挙動が気に食わん。"
 }
 
 
